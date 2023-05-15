@@ -1,0 +1,14 @@
+In line number 102 of your output:
+The output should be:
+Enter Membership number: 123456
+                              ^
+But your output is: 
+Enter Membership number: 12345
+                               ^
+
+Unmatched character details:
+The character in column 32 is supposed to be:
+  [6] ASCII code(54)
+but you printed
+  [Empty Line] ASCII code(0)
+
